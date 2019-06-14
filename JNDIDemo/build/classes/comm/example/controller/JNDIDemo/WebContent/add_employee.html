@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add page</title>
+</head>
+<body>
+<form action="controller.do" method="post">
+<table>
+<tr>
+	<td>EmployeeID:</td><td><input type="text" name="e_id" required></td></tr>
+	<tr><td>firstName:</td><td><input type="text" name="e_fname" required></td></tr>
+<tr>	<td>lastName:</td><td><input type="text" name="e_lname" required></td></tr>
+<tr>	<td>salary:</td><td><input type="number" name="e_sal" required min=1000 max=10000></td></tr>
+	<tr><td><input type="submit" name="Add"></td></tr>
+<tr>	<td><input type="reset" name="reset"></td><td></td></tr>
+
+</table>
+</form>
+</body>
+</html>
