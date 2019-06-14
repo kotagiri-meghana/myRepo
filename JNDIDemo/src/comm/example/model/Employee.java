@@ -42,6 +42,11 @@ public class Employee implements Serializable {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
+	@Override
+	public String toString() {
+		return "Employee [employeeId=" + employeeId + ", firstName=" + firstName + ", lastName=" + lastName
+				+ ", salary=" + salary + "]";
+	}
 	
 	
 	
